@@ -1,43 +1,3 @@
-// import React from 'react';
-// import Select from 'react-select';
-
-// const options = [
-//   { value: 'chocolate', label: 'Chocolate' },
-//   { value: 'strawberry', label: 'Strawberry' },
-//   { value: 'vanilla', label: 'Vanilla' }
-// ];
-
-// export default class App extends React.Component {
-//   state = {
-//     selectedOption: null,
-//   }
-
-//   handleChange = (selectedOption) => {
-//     this.setState({ selectedOption });
-//     console.log(`Option selected:`, selectedOption);
-//     console.log('name', selectedOption.name)
-//   }
-
-//   render() {
-//     const { selectedOption } = this.state;
-
-//     return (
-//       <Select
-//         value={selectedOption}
-//         onChange={this.handleChange}
-//         options={options}
-//         // autoFocus
-//         // isDisabled
-//         // isMulti
-//         // isSearchable
-//         name={options.name}
-//       />
-//     );
-//   }
-// }
-
-
-
 import React, { Component } from 'react';
 // import logo from '../Images/logo.svg';
 import '../Stylesheets/App.css';
@@ -112,8 +72,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-
-
-
